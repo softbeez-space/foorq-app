@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 23.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.foorq.com/api",
+        "EXPO_PUBLIC_APP_NAME": "Foorq",
+        "EXPO_PUBLIC_MENU_BASE_URL": "https://foorq.com"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.foorq.com/api",
+        "EXPO_PUBLIC_APP_NAME": "Foorq",
+        "EXPO_PUBLIC_MENU_BASE_URL": "https://foorq.com"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.foorq.com/api",
+        "EXPO_PUBLIC_APP_NAME": "Foorq",
+        "EXPO_PUBLIC_MENU_BASE_URL": "https://foorq.com"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

@@ -1,0 +1,38 @@
+// i18n slice: reviews (keys prefixed "reviews.").
+export const en: Record<string, string> = {
+  'reviews.title': 'Reviews',
+  'reviews.sub': 'What guests say after their meal.',
+  'reviews.googleTitle': 'Google review link',
+  'reviews.googleSub': 'Guests are sent here after a 4+ star rating.',
+  'reviews.googlePh': 'https://g.page/…',
+  'reviews.googleSaved': 'Review link saved',
+  'reviews.googleInvalid': 'Enter a valid Google review link.',
+  'reviews.save': 'Save link',
+  'reviews.empty': 'No reviews yet',
+  'reviews.emptySub': 'Completed orders with ratings will appear here.',
+  'reviews.hide': 'Hide',
+  'reviews.unhide': 'Unhide',
+  'reviews.updated': 'Review updated',
+  'reviews.updateFail': 'Could not update review.',
+  'reviews.hiddenBadge': 'Hidden',
+  'reviews.googleBadge': 'G',
+};
+
+export const bn: Record<string, string> = {
+  'reviews.title': 'রিভিউ',
+  'reviews.sub': 'খাবারের পর অতিথিরা কী বলছে।',
+  'reviews.googleTitle': 'Google রিভিউ লিংক',
+  'reviews.googleSub': '৪+ স্টার রেটিংয়ের পর অতিথিরা এখানে যাবে।',
+  'reviews.googlePh': 'https://g.page/…',
+  'reviews.googleSaved': 'রিভিউ লিংক সেভ হয়েছে',
+  'reviews.googleInvalid': 'সঠিক Google রিভিউ লিংক দিন।',
+  'reviews.save': 'লিংক সেভ করুন',
+  'reviews.empty': 'এখনো রিভিউ নেই',
+  'reviews.emptySub': 'রেটিংসহ সম্পন্ন অর্ডার এখানে দেখাবে।',
+  'reviews.hide': 'লুকান',
+  'reviews.unhide': 'দেখান',
+  'reviews.updated': 'রিভিউ আপডেট হয়েছে',
+  'reviews.updateFail': 'রিভিউ আপডেট করা যায়নি।',
+  'reviews.hiddenBadge': 'লুকানো',
+  'reviews.googleBadge': 'G',
+};
